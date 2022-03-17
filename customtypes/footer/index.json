@@ -1,0 +1,88 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logo": {
+        "config": {
+          "label": "Logo",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Text",
+          "placeholder": "A short summary about the company",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em,hyperlink"
+        }
+      },
+      "links": {
+        "config": {
+          "label": "Links",
+          "placeholder": "",
+          "fields": {
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null,
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "linkLabel": {
+              "config": {
+                "label": "Link Label",
+                "placeholder": ""
+              },
+              "type": "Text"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    },
+    "CTA": {
+      "ctaTitle": {
+        "config": {
+          "label": "CTA Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading2"
+        },
+        "type": "StructuredText"
+      },
+      "ctaDescription": {
+        "config": {
+          "label": "CTA Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,strong,em,hyperlink"
+        },
+        "type": "StructuredText"
+      },
+      "ctaLink": {
+        "config": {
+          "label": "CTA Link",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": false
+        },
+        "type": "Link"
+      },
+      "ctaLinkLabel": {
+        "config": {
+          "label": "CTA Link Label",
+          "placeholder": ""
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

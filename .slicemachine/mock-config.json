@@ -1,0 +1,17 @@
+{
+  "slices": {
+    "HeroSlice": {}
+  },
+  "_cts": {
+    "blogRoot": {},
+    "blogPost": {},
+    "blogCategory": {},
+    "contact": {},
+    "footer": {},
+    "header": {},
+    "homepage": {},
+    "page": {},
+    "socials": {},
+    "defaultSeo": {}
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "socials",
+  "label": "Socials",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "twitter": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Twitter",
+          "select": "web"
+        }
+      },
+      "linkedin": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "LinkedIn",
+          "select": "Web"
+        }
+      },
+      "instagram": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Instagram",
+          "select": "Web"
+        }
+      },
+      "github": {
+        "type": "Link",
+        "config": {
+          "allowTargetBlank": true,
+          "label": "Github",
+          "select": "Web"
+        }
+      },
+      "dribbble": {
+        "config": {
+          "label": "Dribbble",
+          "placeholder": "",
+          "select": "Web",
+          "allowTargetBlank": true
+        },
+        "type": "Link"
+      }
+    }
+  }
+}
